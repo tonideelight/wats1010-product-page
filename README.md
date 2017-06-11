@@ -1,122 +1,124 @@
-wats1010-product-page
-=====================
+# Intro to Bootstrap
 
-This repository contains the resources to use for the Imaginary Product Page
-assignment in WATS1010: Introduction to Web Development. In this project you
-are tasked with creating a single-page site to promote a product: The API
-Superstore. The API Superstore is a **fictional company** that offers a
-catalog interface to APIs. To be honest, don't try to make too much technical
-sense of it all: This is a completely useless company and product in many ways.
+For this project you will engage with a powerful CSS framework called Bootstrap.
+Bootstrap is known for its ease of use and flexibility. It has become one of the
+most common CSS frameworks in use on modern websites, and it shows up everwhere.
 
-But that makes it all the more fun, right?
+For additional information about Bootstrap please reference the
+[Official Bootstrap Documentation Site](https://getbootstrap.com/).
 
-As you work through this project, you will address six different
-requirements:
+In this project you will be asked to assemble a linked website for an imaginary
+business. You will be required to fill in certain aspects of the code, provide
+some images and/or media files, and make certain elements responsive to
+different viewport sizes.
 
-1. Introduce the product
-2. Provide access to the explainer video (https://www.youtube.com/watch?v=L48g1ZWLMdo)
-3. List features
-4. Provide user testimonials
-5. Provide ability for users to share links to the product page
-6. Call to action link to get user to buy product
+You have been given a set of starter files that show layouts for different kinds
+of page content. Your job will be to look through these files, noting which
+pages you wish to include in your site (you must include at least 4 pages,
+counting your `index.html` page).
 
-To work through all these requirements and create an elegant page, the larger
-project is broken into a few smaller Project Assignments. Below each phase
-of the project is described.
+You will decide what you will name these pages, what images you will put on the
+pages, and how you will organize your site. It will be your responsibility to
+create a sensible IA for your site. (Please note: You do not have to write
+content for the website. It's OK to use the Lorem Ipsum text that is provided.)
 
-Part One: Product Page Design Phase
------------------------------------
+In order to accomplish all of the goals of the project, you must complete two
+parts. First, you'll design and plan the project. Then, you'll build out your
+pages and implement your design and information architecture in a mobile-friendly
+website.
 
-The Design Phase is where you must create some **design artifacts** (wireframes,
-comps, information architecture diagrams, etc.) in order to guide your building
-over the next week.
+## Part One: Design Phase
 
-You must also decide what text you will use and where you will use it.
-Incorporate the exact text you will use in your wireframes so you can get an
-idea of how much room it will take up and how it will read when positioned
-relative to other content.
+During the design phase you will plan your project and gather all of the
+materials you will use to build your site in the next phase. For reference, you
+can view the full, working template that you have been given on the author's
+website: [View preview of Modern Business theme.](https://blackrockdigital.github.io/startbootstrap-modern-business/)
 
-Be sure to make a place for the explainer video. (The company spent a lot of
-money on it, and they want it to be featured prominently.)
+Please note: You have all of the files for this theme in your current repository,
+but they have been altered so that you must make them work properly.
 
-**Requirements**
+### Basic Requirements
 
-1.  Create a PDF wireframe of the page layout with exact text that will be used.
-2.  Choose and edit the text you will use according to your vision for the
-    product page.
-3.  Create at least TWO other project planning documents. You may choose from
-    this list:
+To successfully complete this phase of the project, you must fulfill the
+following requirements.
 
-    * information architecture diagram
-    * project timeline (represented in any way)
-    * design comps
-    * any images or illustrations you are planning to add to the site
+* Create a design document (PDF) in the `design-docs` directory describing your site.
+You will need to convey the following information:
+  * Name of site/company
+  * Description of your design concept/approach
+  * What you hope to accomplish with your design concept/approach
+  * Other sites you looked at for inspiration (include links)
+  * Other sites for comparable businesses that justify your concept/approach
+  (include links)
+* Create an Information Architecture diagram (PDF) that shows the organization,
+hierarchy, and relation between all pages on your site. Place your IA Diagram
+in the `design-docs` directory.
+  * Use any application you prefer to create your IA Diagram
+  * Be sure to include every page in your site and indicate every link in your site
+  * Provide additional explanation as needed
+* Gather all images you will use on the site: all background images, carousel
+images, faux employee or staff images, and any other images you will use on the
+site.
+  * Determine the size at which you will need these images (keep in mind that
+  you may use multiple sizes in order to support multiple devices)
+  * Size and compress the images appropriately using any image software you choose
+  * Place all images in the `images` directory in this repository
 
-All of these documents should be placed in the design folder.
+### Stretch Goals
 
-Part Two: Product Page Preview
-------------------------------
+* Create comps of the pages using your favorite image editing software so you
+can show what pages will look like after your design tweaks have been made.
+* Create a more full design proposal that includes other elements such as
+audience personas, a more thorough competitive scan, or other elements bound into
+an appealing presentation (PDF or slideshow).
+* Plan a site with more than four pages.
 
-The Product Page Preview is really just a check-in point on your build process.
-It's common to put up work that is in-progress for feedback from the team and
-your clients. Since we are spending two weeks to build out this page, we should
-take the time to post up stuff and see how things are coming together.
+## Part Two: Production Phase
 
-For this phase, in addition to your Status Update Report as described in the
-course shell, your only website deliverable is the in-progress site deployed to
-Github Pages.
+### Basic Requirements
 
-**Requirements**
+To successfully complete this project, you must fulfill the following
+requirements.
 
-1.  In-progress site build deployed to the ``gh-pages`` branch and visible on
-    your user.github.io site.
-2.  Demonstrated progress on:
+* In the `index.html` file, find the `TODO` comment indicating where you should
+add your viewport meta tag. Add the proper viewport meta tag to make the
+homepage render properly on mobile browsers.
+* In the `index.html` file, find the `TODO` comment indicating where you should
+add your image URLs to the HTML markup that creates the Carousel.
+* In the `index.html` file, find the "Portfolio Heading" section and apply the proper
+classes to make that section use the proper grid layout ([as seen here](https://blackrockdigital.github.io/startbootstrap-modern-business/index.html)).
+* Add navigation menus to all of the pages you have chosen to use in your site.
+Consult the [Bootstrap Documentation for Nav Bars](http://getbootstrap.com/components/#navbar)
+for additional help creating your navigation menus.
+  * You must have at least four links (counting the "Home" link) in your nav menu
+  * You may have more links in your navigation menu if you choose
+* Update `404.html` to reflect the actual IA of your site.
+* Add the images you have chosen for your site to each page as needed.
 
-    * The video should be embedded
-    * You should have your content placed into the page
-    * You should have partial styles applied to the page
 
-Part Three: Product Page
-------------------------
+### Stretch Goals
 
-Your final product should be a finished, polished Product Page. This is a very
-common style of page, and you should strive to create a page that fits into the
-style and approach of other long-scroll product pages.
+If you have completed all of the Basic Requirements, then you may push yourself
+by attempting some of these stretch goals.
 
-Pay a lot of attention to the details here. You have two weeks to build, so
-be sure to take care of the small items and track down solutions to issues. It's
-better to pull back on ambition in order to create something more polished.
+* Add a completely new section to one of the pages (be sure to indicate what you've
+done in your assignment submission comments).
+  * The new section should be responsive and should recognize at least mobile and
+  desktop viewport sizes
+  * The new section should fit into the theme style
+* Modify the styles more significantly to create an even more unique visual style.
 
-Be sure you have addressed the six primary requirements of the page:
+## Acknowledgements
 
-1. Introduce the product
-2. Provide access to the explainer video
-3. List features
-4. Provide user testimonials
-5. Provide ability for users to share links to the product page
-6. Call to action link to get user to buy product
+This repository uses the Modern Business theme from http://startbootstrap.com.
 
-Notes About Assets
----------------------
+The Modern Business theme from Start Bootstrap was created by and is maintained
+by David Miller, Owner of Blackrock Digital.
 
-This repository contains an ``assets`` folder that has logos for the company,
-the source text, and some additional assets you may wish to use. You are not
-limited to these assets, and you have probably not been provided with all the
-assets you will need to make your page look great. You are expected to seek
-out elements that fit with your design goals and use them appropriately.
+https://twitter.com/davidmillerskt
+https://github.com/davidtmiller
+Start Bootstrap is based on the Bootstrap framework created by Mark Otto and
+Jacob Thorton.
 
-**Video Explainer**
-
-The video explainer for the API Superstore is located here:
-https://www.youtube.com/watch?v=L48g1ZWLMdo You should follow the YouTube embed
-directions to embed the video into the page with appropriate settings and
-size. Take into account the sizes YouTube will let you use to embed the video
-so you can design around those constraints.
-
-**Bootstrap CSS Framework**
-
-You have been provided with the Bootstrap CSS Framework
-(http://getbootstrap.com) linked into your HTML
-file. You should build your designs on top of Bootstrap. If you are an advanced
-student, you can choose to use another CSS framework to build upon.
-
+Start Bootstrap and Modern Business are Copyright 2013-2016 Blackrock Digital
+LLC. Used with permission under MIT License.
